@@ -101,6 +101,7 @@ h4 {
     border: 2px solid #f9004d;
     outline: none;
     border-radius: 28px;
+    
 }
 
 .newsletter form input:last-child {
@@ -115,6 +116,7 @@ h4 {
     box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
     top: 6px;
     right: 6px;
+    
 }
 
 .about {
@@ -180,9 +182,49 @@ button {
 }
 
 button:hover {
-    background-color: transparent;
+   
     border: 2px solid #f9004d;
     cursor: pointer;
     transform: scale(1.25);
+}
 
+.service {
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color:  rgb(134, 139, 145);
+    font-size: 75px;
+    margin: 30px auto;
+    width: 1130px;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #383535;
+    border-radius: 20px; 
+    margin: 15px;
+    position: relative;
+    overflow: visible;
+    text-align: center;
+}
+
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
 }
